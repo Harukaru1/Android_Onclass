@@ -31,7 +31,8 @@
                 android:layout_gravity="center"
                 android:lines="1"
                 android:padding="10px"
-                android:text="Code">
+                android:text="Code"
+                android:id="@+id/Ex_2">
 
             </Button>
 
