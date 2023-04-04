@@ -17,7 +17,7 @@
             android:id="@+id/textlabel"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Muốn gọi ai"/>
+            android:text="Muốn gọi ai" />
     </LinearLayout>
 
     <LinearLayout
@@ -35,17 +35,19 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="500px"
-        android:layout_height="250px"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="318dp"
-        android:orientation="vertical" >
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/callButton"
-            android:text="Gọi">
-        </Button>
+        android:layout_width="119dp"
+        android:layout_height="69dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="0dp">
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="120dp"
+        android:layout_height="69dp"
+        android:text="Gọi"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp"></Button>
 </androidx.constraintlayout.widget.ConstraintLayout>
