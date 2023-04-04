@@ -16,6 +16,9 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Ex4"
+            android:exported="false" />
+        <activity
             android:name=".Ex3"
             android:exported="false" />
         <activity

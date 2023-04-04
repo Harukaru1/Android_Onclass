@@ -42,7 +42,8 @@
                 android:layout_gravity="center"
                 android:lines="1"
                 android:padding="10px"
-                android:text="Bug">
+                android:text="Bug"
+                android:id="@+id/Ex_3">
 
             </Button>
 
@@ -52,7 +53,8 @@
                 android:layout_gravity="center"
                 android:lines="1"
                 android:padding="10px"
-                android:text="Fix bug">
+                android:text="Fix bug"
+                android:id="@+id/Ex_4">
 
             </Button>
 
